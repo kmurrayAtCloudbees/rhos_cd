@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: cbcd-shared-pv
+  name: flow-server-shared
   namespace: cbcd
 spec:
   accessModes:
     - ReadWriteMany
   storageClassName: nfs-client
   volumeMode: Filesystem
-  volumeName: cbcd-shared-pv
+  volumeName: flow-server-shared
   resources:
     requests:
       storage: 15Gi
