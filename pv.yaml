@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolume
 metadata:
-  name: cbcd-shared-pv
+  name: flow-server-shared
 spec:
   capacity:
     storage: 30Gi
